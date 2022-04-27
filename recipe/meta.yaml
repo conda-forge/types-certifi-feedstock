@@ -1,5 +1,5 @@
 {% set name = "types-certifi" %}
-{% set version = "2021.10.8.1" %}
+{% set version = "2021.10.8.2" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/types-certifi-{{ version }}.tar.gz
-  sha256: 546cd3ca4466855959fbc8868fd7139a50eb55a2d1fae497e13b60af439597a3
+  sha256: a36dc1cb4aeeea8c97430297db10b4c0481ba612ed443e48e3e8aa091f359440
 
 build:
   number: 0
